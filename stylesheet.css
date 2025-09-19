@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.header {
+    height: 90px;
+    padding-top: 45px;
+    margin-top: -5px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    background-color: darkslategray;
+    color: white;
+}
+
+.navbar {
+    height: 40px;
+    padding-top: 20px;
+    border: 3px solid black;
+    margin-top: -30px;
+    text-align: center;
+    background-color: rgba(24, 46, 46);
+}
+
+.navbar a {
+    margin: 60px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: darkslategray;
+}
+
+.sidebar{
+    position: absolute;
+    margin-left: 20px;
+    width: 250px;
+    height: 20%;
+    padding-top: 20px;
+    margin-top: 15px;
+    border: 3px solid black;
+    background-color: rgb(24, 46, 46);
+    font-size: 18px;
+}
+
+.sidebar ul li{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.sidebar a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover {
+    border-bottom: 2px solid lightgray;
+    color: lightgray;
+}
+
+.sidebar h2 {
+    margin-top: -5px;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    width: 85%;
+    height: 90%;
+    margin-left: 290px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-bottom:700px;
+    border: 3px solid black;
+    font-size: 18px;
+    background-color: rgba(24, 46, 46, 0.5);
+}
+
+.footer {
+    height: 35px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    text-align: center;
+    font-size: 20px;
+    background-color: darkslategray;
+    color: white;
+}
